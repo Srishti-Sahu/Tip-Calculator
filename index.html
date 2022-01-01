@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tip Calculator</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href='style.css'></link>
+  </head>
+
+  <body>
+    <h1>Tip Calculator</h1>
+   
+    <h2>How much was your bill?</h2>
+    <input type="number" placeholder="Bill Amount" id="billAmt" />
+    <h2>How was our service?</h2>
+    <label for="review">Choose an option</label>
+
+<select name="review" id="review">
+  <option value="Good" id="r1">Good</option>
+  <option value="Average" id="r2">Average</option>
+  <option value="Bad" id="r3">Bad</option>
+</select>
+<h2>How many people are sharing the bill?</h2> <span></span>
+<input type="number" placeholder="Number of People" id="people" /> 
+    
+  
+    <button id ="calculate" type="button">Calculate</button> <span id="span"></span>
+    <script src= "tipCal.js"></script>
+  </body>
+</html>

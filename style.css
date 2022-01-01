@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(238, 58, 58);
+}
+h1{
+  margin-left:30px;
+}
+#billAmt{
+  border-radius:5px;
+ margin-left:30px;
+  width:90px;
+  height: 30px
+}
+#people{
+  border-radius:5px;
+ margin-left:30px;
+  width:90px;
+  height: 30px
+}
+#review{
+  border-radius:5px;
+ margin-left:30px;
+  width:90px;
+  height: 30px
+}
+button{
+  color: blue;
+  margin-left:40px;
+  width:200px;
+  height:50px;
+  border-radius:5px;
+  border-width:7px;
+  border-style: dashed;
+
+}
+#span{
+  color: white;
+  margin-left:20px;
+  font-weight:bolder;
+  font-size: 30px;
+  text-decoration: underline;
+}
